@@ -1,0 +1,16 @@
+{
+  "name": "licenseforge",
+  "version": "0.10.0",
+  "description": "Forge the LICENSE by using a simple cli. [NodeJS]",
+  "main": "",
+  "bin": {
+    "forge-license": "./cli/index.js"
+  },
+  "repository": {
+    "url": "https://github.com/nehalsci/licenseforge",
+    "type": "git"
+  },
+  "author": "Nehal <https://github.com/nehalsci>",
+  "license": "MIT",
+  "private": false
+}
