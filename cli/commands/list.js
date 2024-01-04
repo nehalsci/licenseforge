@@ -23,3 +23,5 @@ function readLicenseDirectory() {
 
 	return array;
 }
+
+module.exports.readLicenseDirectory = readLicenseDirectory;
