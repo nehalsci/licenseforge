@@ -1,4 +1,5 @@
 const fs = require("node:fs");
+const path = require("path");
 
 module.exports = function licenses() {
 	const licenses = readLicenseDirectory();
@@ -11,7 +12,9 @@ module.exports = function licenses() {
 }
 
 function readLicenseDirectory() {
-	const files = fs.readdirSync("./licenses");
+	const folderPath = path.join(__dirname, "..", "..", "licenses");
+
+	const files = fs.readdirSync(folderPath);
 	const array = [];
 
 	files.forEach(name => {
