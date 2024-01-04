@@ -20,7 +20,14 @@
     "url": "https://github.com/nehalsci/licenseforge",
     "type": "git"
   },
-  "author": "Nehal <https://github.com/nehalsci>",
+  "author": {
+    "name": "Nehal",
+    "url": "https://github.com/nehalsci"
+  },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nehalsci/licenseforge/issues"
+  },
+  "homepage": "https://github.com/nehalsci/licenseforge#readme",
   "private": false
 }
