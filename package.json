@@ -6,6 +6,16 @@
   "bin": {
     "forge-license": "./cli/index.js"
   },
+  "keywords": [
+    "node",
+    "cli",
+    "create-license",
+    "license",
+    "generator",
+    "boilerplate",
+    "template",
+    "javascript"
+  ],
   "repository": {
     "url": "https://github.com/nehalsci/licenseforge",
     "type": "git"
