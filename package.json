@@ -1,7 +1,7 @@
 {
   "name": "licenseforge",
   "version": "0.10.0",
-  "description": "Forge the LICENSE by using a simple cli. [NodeJS]",
+  "description": "Forge the LICENSE by using a simple cli command [NodeJS]",
   "main": "",
   "bin": {
     "forge-license": "./cli/index.js"
