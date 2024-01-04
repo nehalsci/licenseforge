@@ -10,6 +10,9 @@ switch (argument[0]) {
 	case "list": require("./commands/list")();
 	break;
 
+	case "create": require("./commands/create.js")(argument[1]);
+	break;
+
 	default: {
 		require("./commands/create.js")(argument[0]);
 	}
