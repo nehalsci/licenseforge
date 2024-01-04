@@ -7,6 +7,10 @@ module.exports = function help() {
 	{
 		name: "list",
 		description: "Licenses that you can forge"
+	},
+	{
+		name: "create",
+		description: "Create the license. [Name argument required]"
 	}
 	]);
 }
