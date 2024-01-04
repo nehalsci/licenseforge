@@ -11,6 +11,6 @@ switch (argument[0]) {
 	break;
 
 	default: {
-		console.log("Argument [0]: Invalid license name or command\n\nUse 'help' to get list of available commands.");
+		require("./commands/create.js")(argument[0]);
 	}
 }
